@@ -23,9 +23,6 @@
                                     </span>
                                 @enderror
                             </div>
-                            <br />
-                            <p style="margin-left:265px">OR</p>
-                            
                         </div>
 
                         <div class="form-group row">
@@ -67,6 +64,9 @@
                                 @endif
                             </div>
                             <div class="col-md-8 col-md-offset-4">
+                                <br/>
+                                OR
+                                <br/>
                                 <a href="{{url('/redirect')}}" class="btn btn-primary">Login with Google</a>
                             </div>
                         </div>
